@@ -2,28 +2,28 @@
 class Dpad < Formula
   desc "Colorful, interactive companion to the docker CLI"
   homepage "https://github.com/spar/dpad"
-  version "0.16.0"
+  version "0.16.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/spar/dpad/releases/download/v0.16.0/dpad-darwin-arm64.tar.gz"
-      sha256 "0107790100f3c3a3f9d906e699a380c1d781cfba974a58ffb21b7cd4e10cae63"
+      url "https://github.com/spar/dpad/releases/download/v0.16.1/dpad-darwin-arm64.tar.gz"
+      sha256 "28bf6222e8d5b2a009b1c6b94c15eed2c924514b8bc0c9a4855122c79fc92f87"
     end
     on_intel do
-      url "https://github.com/spar/dpad/releases/download/v0.16.0/dpad-darwin-amd64.tar.gz"
-      sha256 "247c28b7a5d09f44d0a22f3df467c54bd6649dc7751120a772c5daddd983daa6"
+      url "https://github.com/spar/dpad/releases/download/v0.16.1/dpad-darwin-amd64.tar.gz"
+      sha256 "f680208d7e26dfdb8d98917a1eb2cbe6e42cf8e596eedad7f0ca2b90386d6a39"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/spar/dpad/releases/download/v0.16.0/dpad-linux-arm64.tar.gz"
-      sha256 "fffec2be37ce6174572c2f2d2009cc26dce8e14e305b8fea4d5a296aae65c0e8"
+      url "https://github.com/spar/dpad/releases/download/v0.16.1/dpad-linux-arm64.tar.gz"
+      sha256 "8b18779120f162a5e0326bd2403463e6e61584c80bab7fa59a4500f3774df9d5"
     end
     on_intel do
-      url "https://github.com/spar/dpad/releases/download/v0.16.0/dpad-linux-amd64.tar.gz"
-      sha256 "1139868821418f70c199170f5926346859b4925596e8da6d57b788f9ad78cb40"
+      url "https://github.com/spar/dpad/releases/download/v0.16.1/dpad-linux-amd64.tar.gz"
+      sha256 "1c3ed9dfbec3d88af9288ead2e7e366cc56e11f9b35a430c04689e5b7ee6de8d"
     end
   end
 
