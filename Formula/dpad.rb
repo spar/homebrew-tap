@@ -1,29 +1,29 @@
 # Updated by spar/dpad's release workflow.
 class Dpad < Formula
-  desc "Colorful, interactive companion to the docker CLI"
+  desc "Stop juggling docker ps, stats and logs. One screen to rule them all"
   homepage "https://github.com/spar/dpad"
-  version "0.17.0"
+  version "0.17.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/spar/dpad/releases/download/v0.17.0/dpad-darwin-arm64.tar.gz"
-      sha256 "1a32f4e2bcd068827e9fcf88f99504b01b2ff29e59826889a9140049c8d15c1a"
+      url "https://github.com/spar/dpad/releases/download/v0.17.1/dpad-darwin-arm64.tar.gz"
+      sha256 "7c549169996010b4f8dd3828cab36df3876d2b0a19d1cbe7d2790ba4276c8485"
     end
     on_intel do
-      url "https://github.com/spar/dpad/releases/download/v0.17.0/dpad-darwin-amd64.tar.gz"
-      sha256 "952438f825fa28249fad501438cc7e40a095e80a2207507b974e9b809b786400"
+      url "https://github.com/spar/dpad/releases/download/v0.17.1/dpad-darwin-amd64.tar.gz"
+      sha256 "c606de32768d9aee16820a1d9551289f389288210131d2e53ebe657503a2135d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/spar/dpad/releases/download/v0.17.0/dpad-linux-arm64.tar.gz"
-      sha256 "e0f45aef480ebb5f02246edc8cf57932b47d3e2f3aa01eda891ff1139197fcd2"
+      url "https://github.com/spar/dpad/releases/download/v0.17.1/dpad-linux-arm64.tar.gz"
+      sha256 "bf92dca04a0fc5c65f2974baa942594c1cf8a8c35e7c9f1e417f5d28ea87969b"
     end
     on_intel do
-      url "https://github.com/spar/dpad/releases/download/v0.17.0/dpad-linux-amd64.tar.gz"
-      sha256 "bae9ba037f3d63c298805402d756b9a3649a37771bcdc808e941369cddb6650e"
+      url "https://github.com/spar/dpad/releases/download/v0.17.1/dpad-linux-amd64.tar.gz"
+      sha256 "ed98fdeb73cbd62da34f333a03cbd486e46fe7bec2c4f77c6fb093ecf2cf8dc9"
     end
   end
 
