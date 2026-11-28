@@ -2,28 +2,28 @@
 class Dpad < Formula
   desc "Stop juggling docker ps, stats and logs. One screen to rule them all"
   homepage "https://github.com/spar/dpad"
-  version "0.18.0"
-  license "MIT"
+  version "0.18.1"
+  license "GPL-3.0-only"
 
   on_macos do
     on_arm do
-      url "https://github.com/spar/dpad/releases/download/v0.18.0/dpad-darwin-arm64.tar.gz"
-      sha256 "a031e858201c601cae28e3d686617d9dc3f26ae5f5ddde58ed3bef1eb8041197"
+      url "https://github.com/spar/dpad/releases/download/v0.18.1/dpad-darwin-arm64.tar.gz"
+      sha256 "2ecfa235d9d341e60d501a60583ed6c714816cfdd7a8e674d05e6c6154009a3c"
     end
     on_intel do
-      url "https://github.com/spar/dpad/releases/download/v0.18.0/dpad-darwin-amd64.tar.gz"
-      sha256 "6991a78aa3ffed2ff2bedac2018da74d86b76faa48e305e58157f1e85de7ff1d"
+      url "https://github.com/spar/dpad/releases/download/v0.18.1/dpad-darwin-amd64.tar.gz"
+      sha256 "a1365d1f4e9634a4dc29512ccc37e12c0d7f14f46867df96cc19aaf885b87b19"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/spar/dpad/releases/download/v0.18.0/dpad-linux-arm64.tar.gz"
-      sha256 "0b0dfafff2262c69a23e6eb5baae65fdc60d065322f27382322969a25b77e6d4"
+      url "https://github.com/spar/dpad/releases/download/v0.18.1/dpad-linux-arm64.tar.gz"
+      sha256 "09a52a7c6e26804f777db570e3682f003df1a211a4ce1e71463e0edc57b4e06c"
     end
     on_intel do
-      url "https://github.com/spar/dpad/releases/download/v0.18.0/dpad-linux-amd64.tar.gz"
-      sha256 "27cfe4388f732a5922147d63cda1abef9f112dddf49a2570636d840c4eb5f971"
+      url "https://github.com/spar/dpad/releases/download/v0.18.1/dpad-linux-amd64.tar.gz"
+      sha256 "dd1379d7580d88d44e37a2a8afa40c529df9f4001d2d01a984012100a8813187"
     end
   end
 
